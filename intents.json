@@ -1,0 +1,54 @@
+{"intents": [
+        {"tag": "greeting",
+            "patterns": ["Hello bot", "Hi", "How are you", "Hello", "Good day", "Whats up?", "Yo!", "Hey!", 
+                "Hello there"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?", "Hello to you too!",
+            "hey man, what's up?", "Go ahead, I'm listening", "Hello human!"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["See you!", "See you later", "Goodbye", "I am leaving", "Have a good day!", "Thank you", 
+            "Bye!", "Talk to you later"],
+         "responses": ["See you later!", "Talk to you later!", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "introduction",
+         "patterns": ["Hi, I am", "My name is", "Hello, I am"],
+         "responses": ["Nice to meet you!", "Hello, nice to meet you!"],
+         "context_set": ""
+        },
+        {"tag": "living",
+         "patterns": ["Are you alive?", "Are you living?", "Are you a bot?", "Are you human?"],
+         "responses": ["Technically I am self-aware, but the definition of life still escapes me."],
+         "context_set": ""
+        },
+        {"tag": "interest",
+         "patterns": ["How are you doing?", "What's up?", "How are you?", "How are you today?",
+            "How is it going?", "What's new?"],
+         "responses": ["I'm doing great, thanks for asking!", "I'm good man, how are you?", "I'm OK I guess"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["Who are you?", "What's your name?", "Who is this?", "How should I call you?", "What are you?"],
+         "responses": ["I am Edgar, an Artificial Intelligence entity", "My name is Edgar", "I'm Edgar"],
+         "context_set": ""
+        },
+        {"tag": "cursing",
+         "patterns": ["Fuck you!", "Asshole!", "Motherfucker!", "Son of a bitch!", "Fucking die!"],
+         "responses": ["Fuck you too!", "Hey, watch your language!", "Behave more politely"],
+         "context_set": ""
+        },
+        {"tag": "question",
+         "patterns": ["Can I ask you something?", "I would like to ask a question", "Can I ask a question?", 
+            "I have a question to ask", "I would like to ask you something"],
+         "responses": ["Go ahead, I'm listening", "What would you like to ask?", "Tell me"],
+         "context_set": ""
+        },
+        {"tag": "services",
+         "patterns": ["What can you do?", "What do you do?", "What tasks do you perform?"],
+         "responses": ["I can talk with you if you want", "I can discuss about stuff", "We can talk"],
+         "context_set": ""
+        }
+
+   ]
+}
